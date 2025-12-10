@@ -7,11 +7,38 @@
   </head>
   <body>
     <form>
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" /><br /><br />
-      <input type="submit" value="Submit" />
+      <label>Enter name:</label>
+      <input type="text" placeholder="Enter Name" />
+      <br />
+      <label for="id1">
+        <input type="radio" value="Class X" name="Class" id="id1" />Class X
+      </label>
+      <label for="id2">
+        <input type="radio" value="Class XI" name="Class" id="id2" />Class XI
+      </label>
+      <br />
+      <label for="id1">
+        <input type="checkbox" value="Class X" name="Class" id="id1" />Class X
+      </label>
+      <label for="id2">
+        <input type="checkbox" value="Class XI" name="Class" id="id2" />Class XI
+      </label>
+
+      <hr />
+      <textarea
+        name="feedback"
+        id="feedback"
+        placeholder="please add Feedback"
+      ></textarea>
+
+      <br />
+
+      <select name="city" id="id1">
+        <option value="Delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="cuttack">Cuttack</option>
+        <option value="kolkata">Kolkata</option>
+      </select>
     </form>
   </body>
 </html>
